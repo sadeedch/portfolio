@@ -80,12 +80,7 @@ const projects = [
     text: 'Microsoft Power Apps used by 1,000+ healthcare staff to streamline operational workflows and reduce manual process friction.',
     stack: ['Power Apps', 'Dataverse', 'Power Automate', 'Microsoft 365']
   },
-  {
-    title: 'Cricket Predictor AI',
-    tag: 'Personal ML Product',
-    text: 'A prediction and simulation app using match data, Elo ratings, logistic regression and Monte Carlo simulation.',
-    stack: ['Python', 'FastAPI', 'Vue', 'Machine Learning', 'Pandas']
-  }
+ 
 ];
 
 const services = [
