@@ -280,11 +280,11 @@ export default function Page() {
         <div className="glow glowOne" /><div className="glow glowTwo" />
         <div className="heroCopy reveal">
           <p className="eyebrow">&lt; Hello, World! /&gt;</p>
-          <h1 className="neonTitle"><span className="neonWhite">I&apos;m Sadeed</span><span className="neonCyan">Full Stack Developer<span className="cursor" /></span></h1>
+          <h1 className="neonTitle"><span className="neonWhite">I&apos;m Sadeed</span><span className="neonCyan">Software Engineer<span className="cursor" /></span></h1>
           <p className="lead">I build scalable, secure and high-performance software for healthcare, government and enterprise teams using React, Next.js, .NET, SQL Server, Azure DevOps and Power Platform.</p>
           <div className="availabilityGrid">
             <div className="availability"><span className="pulse" /><div><strong>Open to work</strong><span>International • Remote</span></div></div>
-            <div className="availability"><span className="miniIcon">◎</span><div><strong>Based in Australia</strong><span>Open to relocate to Europe</span></div></div>
+            <div className="availability"><span className="miniIcon">◎</span><div><strong>Based in Australia</strong><span>Open to relocate Internationally</span></div></div>
           </div>
           <div className="heroActions"><a className="button primary" href="#projects">View my work →</a><a className="button ghost" href="mailto:sadeedahmadch@gmail.com">Let&apos;s connect ✈</a></div>
         </div>
