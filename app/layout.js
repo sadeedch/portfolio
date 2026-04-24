@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Sadeed Ahmad | Full Stack Developer',
-  description: 'Portfolio of Sadeed Ahmad, Full Stack Developer specialising in React, Next.js, .NET, SQL Server, Azure DevOps and Power Platform.',
+  title: 'Sadeed Ahmad | Software Engineer | Australia',
+  description: 'Portfolio of Sadeed Ahmad, Software Enginner / Full Stack Developer specialising in React, Next.js, .NET, SQL Server, Azure DevOps and Power Platform.',
   keywords: [
     'Sadeed Ahmad',
     'Full Stack Developer',
