@@ -80,6 +80,12 @@ const projects = [
     text: 'Microsoft Power Apps used by 1,000+ healthcare staff to streamline operational workflows and reduce manual process friction.',
     stack: ['Power Apps', 'Dataverse', 'Power Automate', 'Microsoft 365']
   },
+   {
+  title: 'Sports Science Motion Analysis App',
+  tag: 'iOS Development',
+  text: 'iOS application built at Griffith University to capture and visualise athlete motion data using device sensors, enabling real-time insights for sports science research and performance analysis.',
+  stack: ['Swift', 'iOS', 'Core Motion', 'MVC', 'iOS Charts', 'File Manager']
+}
  
 ];
 
