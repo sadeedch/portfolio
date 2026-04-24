@@ -22,7 +22,7 @@ const stats = [
 
 const work = [
   {
-    period: 'Jan 2026 to Present',
+    period: '',
     role: 'Senior Data System & Application Specialist',
     company: 'Metro South Health, Queensland Health',
     points: [
@@ -32,7 +32,7 @@ const work = [
     ]
   },
   {
-    period: 'Oct 2024 to Oct 2025',
+    period: '',
     role: 'Full Stack Developer',
     company: 'Gold Coast Health, Queensland Health',
     points: [
@@ -42,7 +42,7 @@ const work = [
     ]
   },
   {
-    period: 'May 2022 to Jan 2024',
+    period: '',
     role: 'Software Developer / Delivery Manager',
     company: 'Tata Consultancy Services',
     points: [
@@ -51,7 +51,7 @@ const work = [
     ]
   },
   {
-    period: 'Apr 2021 to Mar 2022',
+    period: '',
     role: 'Software Developer',
     company: 'foundU',
     points: [
