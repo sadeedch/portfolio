@@ -297,7 +297,7 @@ export default function Page() {
         <div className="reveal delayOne"><Robot /><div className="statsRail">{stats.map((item) => (<div className="statPill" key={item.label}><div className="statIcon">{item.icon}</div><div><strong>{item.value}</strong><span>{item.label}</span></div></div>))}</div></div>
       </section>
 
-      <section className="proofGrid sectionPadSmall" aria-label="Career highlights">{stats.map((item) => (<div className="proofCard" key={item.label}><strong>{item.value}</strong><span>{item.label}</span></div>))}</section>
+      // <section className="proofGrid sectionPadSmall" aria-label="Career highlights">{stats.map((item) => (<div className="proofCard" key={item.label}><strong>{item.value}</strong><span>{item.label}</span></div>))}</section>
 
       <section id="about" className="sectionPad split">
         <div className="sectionIntro reveal"><p className="eyebrow">About Me_</p><h2>I combine product thinking, enterprise discipline and hands-on engineering.</h2><p>I am a Brisbane-based software engineer with strong experience across healthcare systems, public-sector software, frontend architecture, Microsoft technologies and workflow automation.</p></div>
