@@ -20,6 +20,13 @@ const stats = [
   { value: 'Remote', label: 'International Ready', icon: '◌' }
 ];
 
+const details_sadeed = [
+  { value: 'Healthcare Systems Scaled', label: '🏥' },
+  { value: 'Real-time Systems Built', label: '⚡'},
+  { value: 'Secure Enterprise Apps', label: '🔐'},
+  { value: 'Production Deployments', label: '🌍'}
+];
+
 const work = [
   {
     period: '',
@@ -121,7 +128,7 @@ function Robot() {
           <div className="arm rightArm" />
         </div>
       </div>
-      <div className="desk"><div className="laptop"><span>SA</span></div></div>
+      <div className="desk"><div className="laptop"><span>SA </span></div></div>
     </div>
   );
 }
@@ -218,7 +225,7 @@ export default function Page() {
         .statPill span { color: var(--muted); font-size: 13px; }
         .panel, .timelineCard, .projectCard, .contactCard, .proofCard { border: 1px solid var(--line); background: linear-gradient(180deg, rgba(5,10,30,0.86), rgba(3,7,20,0.72)); backdrop-filter: blur(22px); box-shadow: var(--shadow); }
         .proofGrid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
-        .proofCard { padding: 24px; border-radius: 22px; position: relative; overflow: hidden; transition: 240ms ease; }
+        .proofCard { padding: 20px; border-radius: 22px; position: relative; overflow: hidden; transition: 240ms ease; }
         .proofCard:hover { transform: translateY(-7px); border-color: rgba(255,61,242,0.48); box-shadow: 0 0 34px rgba(255,61,242,0.18); }
         .proofCard strong { display: block; font-size: 34px; letter-spacing: -0.04em; color: var(--cyan); text-shadow: 0 0 18px var(--cyan); }
         .proofCard span { color: var(--muted); line-height: 1.45; }
@@ -294,10 +301,16 @@ export default function Page() {
           </div>
           <div className="heroActions"><a className="button primary" href="#projects">View my work →</a><a className="button ghost" href="mailto:sadeedahmadch@gmail.com">Let&apos;s connect ✈</a></div>
         </div>
-        <div className="reveal delayOne"><Robot /><div className="statsRail">{stats.map((item) => (<div className="statPill" key={item.label}><div className="statIcon">{item.icon}</div><div><strong>{item.value}</strong><span>{item.label}</span></div></div>))}</div></div>
+        <div className="reveal delayOne"><Robot /><div className="statsRail">{stats.map((item) => (<div className="statPill" key={item.label}><div className="statIcon">{item.icon}</div><div><strong>{item.value}</strong><span >{item.label}</span></div></div>))}</div></div>
       </section>
 
-       <section className="proofGrid sectionPadSmall" aria-label="Career highlights">{stats.map((item) => (<div className="proofCard" key={item.label}><strong>{item.value}</strong><span>{item.label}</span></div>))}</section>
+       <section className="proofGrid sectionPadSmall" aria-label="Career highlights">{details_sadeed.map((item) => (<div className="proofCard" key={item.label}><strong style={{ fontSize: '26px' }}>{item.value}</strong><span   style={{
+    fontSize: '28px',
+    paddingTop: '10px',
+    textAlign: 'center',
+    display: 'block',
+    width: '100%'
+  }}>{item.label}</span></div>))}</section>
 
       <section id="about" className="sectionPad split">
         <div className="sectionIntro reveal"><p className="eyebrow">About Me_</p><h2>I combine product thinking, enterprise discipline and hands-on engineering.</h2><p>I am a Brisbane-based software engineer with strong experience across healthcare systems, public-sector software, frontend architecture, Microsoft technologies and workflow automation.</p></div>
