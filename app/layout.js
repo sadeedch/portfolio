@@ -1,4 +1,5 @@
 import './globals.css';
+import Script from "next/script";
 
 export const metadata = {
   title: 'Sadeed Ahmad | Software Engineer | Australia',
@@ -33,6 +34,26 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+
+        {/* Google tag (gtag.js) */}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-CXS01RW5T3"
+          strategy="afterInteractive"
+        />
+
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-CXS01RW5T3');
+          `}
+        </Script>
+
+      </head>
+
       <body>{children}</body>
     </html>
   );
