@@ -69,15 +69,7 @@ const work = [
 ];
 
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CXS01RW5T3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-CXS01RW5T3');
-</script>
 const projects = [
   {
     title: 'Healthcare Patient Management Platform',
