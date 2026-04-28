@@ -1,6 +1,5 @@
 import './globals.css';
 import Script from "next/script";
-import GATracker from "./ga-tracker";
 
 export const metadata = {
   title: 'Sadeed Ahmad | Software Engineer | Australia',
@@ -55,10 +54,7 @@ export default function RootLayout({ children }) {
 
       </head>
 
-      <body>
-        <GATracker />
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
