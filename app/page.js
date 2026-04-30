@@ -1,6 +1,7 @@
 const skills = [
   { name: 'Next.js', icon: 'N' },
   { name: 'React', icon: '⚛' },
+  { name: 'Vue.js', icon: 'V' },
   { name: 'TypeScript', icon: 'TS' },
   { name: 'ASP.NET Core', icon: '.NET' },
   { name: 'C#', icon: 'C#' },
