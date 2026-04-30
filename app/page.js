@@ -95,7 +95,7 @@ const projects = [
     title: 'Enterprise Inventory & Retail Web Application',
     tag: 'Retail Technology',
     text: 'Supported the modernisation of a large-scale retail enterprise platform, focusing on responsive UI development, frontend performance optimisation, reusable Vue.js components, REST API integration and cross-team software delivery.',
-    stack: ['Vue.js', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3/SCSS', 'Vue Router', 'REST APIs', 'Axios', 'Jira', 'Git', 'qTest']
+    stack: ['Vue.js', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3/SCSS', 'Vue Router', 'REST APIs', 'Jira', 'Git', 'qTest']
   },
    {
   title: 'Sports Science Motion Analysis App',
