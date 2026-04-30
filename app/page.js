@@ -54,9 +54,9 @@ const work = [
     role: 'Software Developer / Delivery Manager',
     company: 'Tata Consultancy Services',
     points: [
-      'Supported software delivery for enterprise inventory and retail systems with strong governance, Jira tracking and Git workflows.',
-      'Coordinated cross-functional delivery, integration planning and technical standards across multiple teams.'
-    ]
+  'Supported software delivery for enterprise inventory and retail systems, working with Vue.js, TypeScript and JavaScript while maintaining strong governance, Jira tracking and Git-based workflows.',
+  'Coordinated cross-functional delivery, integration planning and technical standards across multiple teams, helping improve consistency, maintainability and delivery quality.'
+]
   },
   {
     period: '',
