@@ -84,11 +84,18 @@ const projects = [
     text: 'Modernisation of public health applications with improved maintainability, deployment reliability and stakeholder alignment.',
     stack: ['ASP.NET Core MVC', 'C#', 'IIS', 'SQL Server', 'Azure DevOps']
   },
+  // {
+  //   title: 'Power Platform Workflow Automation',
+  //   tag: 'Low-Code at Scale',
+  //   text: 'Microsoft Power Apps used by 1,000+ healthcare staff to streamline operational workflows and reduce manual process friction.',
+  //   stack: ['Power Apps', 'Dataverse', 'Power Automate', 'Microsoft 365']
+  // },
+
   {
-    title: 'Power Platform Workflow Automation',
-    tag: 'Low-Code at Scale',
-    text: 'Microsoft Power Apps used by 1,000+ healthcare staff to streamline operational workflows and reduce manual process friction.',
-    stack: ['Power Apps', 'Dataverse', 'Power Automate', 'Microsoft 365']
+    title: 'Enterprise Inventory & Retail Web Application',
+    tag: 'Retail Technology',
+    text: 'Supported the modernisation of a large-scale retail enterprise platform, focusing on responsive UI development, frontend performance optimisation, reusable Vue.js components, REST API integration and cross-team software delivery.',
+    stack: ['Vue.js', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3/SCSS', 'Vue Router', 'REST APIs', 'Axios', 'Jira', 'Git', 'qTest']
   },
    {
   title: 'Sports Science Motion Analysis App',
